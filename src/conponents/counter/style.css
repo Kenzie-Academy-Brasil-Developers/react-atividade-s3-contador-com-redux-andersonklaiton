@@ -1,0 +1,29 @@
+.container_all{
+    width: 290px;
+    height: 200px;
+    background: rgb(67, 183, 255);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container_all span{
+    font-size: 50px;
+}
+.container_buttons{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.container_buttons button{
+    width: 50px;
+    height: 50px;
+    font-size: 35px;
+    color: white;
+    background: rgb(144, 255, 144);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
